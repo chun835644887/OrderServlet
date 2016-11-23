@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Launch</servlet-name>
+    <servlet-class>com.feicui.order.Launch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Dishes</servlet-name>
+    <servlet-class>com.feicui.order.Dishes</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DishesGet</servlet-name>
+    <servlet-class>com.feicui.order.DishesGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Order</servlet-name>
+    <servlet-class>com.feicui.order.Order</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CountServlet</servlet-name>
+    <servlet-class>com.feicui.order.CountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderStatusServlet</servlet-name>
+    <servlet-class>com.feicui.order.OrderStatusServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderStatusItemServlet</servlet-name>
+    <servlet-class>com.feicui.order.OrderStatusItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddServlet</servlet-name>
+    <servlet-class>com.feicui.order.AddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MoreCheckServlet</servlet-name>
+    <servlet-class>com.feicui.order.MoreCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MoreChangeServlet</servlet-name>
+    <servlet-class>com.feicui.order.MoreChangeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MoreGetFreeTableServlet</servlet-name>
+    <servlet-class>com.feicui.order.MoreGetFreeTable</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MoreWithTableServlet</servlet-name>
+    <servlet-class>MoreWithTableServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  <servlet-mapping>
+    <servlet-name>Launch</servlet-name>
+    <url-pattern>/launch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Dishes</servlet-name>
+    <url-pattern>/Dishes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DishesGet</servlet-name>
+    <url-pattern>/Get</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Order</servlet-name>
+    <url-pattern>/Order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CountServlet</servlet-name>
+    <url-pattern>/Count</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderStatusServlet</servlet-name>
+    <url-pattern>/Status</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderStatusItemServlet</servlet-name>
+    <url-pattern>/StatusItem</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddServlet</servlet-name>
+    <url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreCheckServlet</servlet-name>
+    <url-pattern>/Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreChangeServlet</servlet-name>
+    <url-pattern>/Change</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreGetFreeTableServlet</servlet-name>
+    <url-pattern>/FreeTable</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MoreWithTableServlet</servlet-name>
+    <url-pattern>/WithTable</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
